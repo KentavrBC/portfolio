@@ -1,0 +1,58 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html, body {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #29aace;
+  color: #fff;
+}
+
+//header
+
+.header {
+  height: 80px;
+}
+
+//main
+
+.main {
+  background: url(http://g33k.net/wp-content/uploads/2014/11/Featured_Virtulization.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 500px;
+  h2 {
+    margin: 300px 20px 30px 20px;
+  }
+  p {
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .btn-primary {
+   margin: 20px;
+   padding: 10px 30px;
+   border-radius: 5px;
+   text-decoration: none;
+  }
+}
+
+//footer
+
+.footer {
+  #copy {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 20px;
+    float: left;
+    
+  }
+  .navbar {
+    margin: 20px;
+    list-style: none;
+    li {
+      display: inline;
+    }
+  }
+}
