@@ -13,7 +13,24 @@ body {
 //header
 
 .header {
+  position: relative;
   height: 80px;
+  .logo {
+    position: absolute;
+    font-size: 36px;
+    color: #fff;
+    margin: 14px 23px;
+    text-decoration: none;
+  }
+  .nav-bar {
+    position: absolute;
+    display: block;
+    margin-top: 22px;
+    position: relative;
+    li {
+      display: inline;
+    }
+  }
 }
 
 //main
@@ -21,20 +38,40 @@ body {
 .main {
   background: url(http://g33k.net/wp-content/uploads/2014/11/Featured_Virtulization.jpg) no-repeat center center fixed;
   background-size: cover;
-  height: 500px;
+  min-height: 500px;
   h2 {
-    margin: 300px 20px 30px 20px;
+    margin : {
+      top: 280px;
+      left: 35px;
+    }
   }
-  p {
+  .row {
     margin: 20px;
-    font-size: 16px;
-    font-weight: 500;
+    p {
+      display: block;
+      margin: 20px auto 30px auto;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .btn-primary {
+      padding: 13px 28px;
+      border-radius: 10px;
+      font-size: 16px;
+      text-decoration: none;
+    }
   }
-  .btn-primary {
-   margin: 20px;
-   padding: 10px 30px;
-   border-radius: 5px;
-   text-decoration: none;
+  .unslider {
+    margin: 20px;
+    li {
+      img {
+        max-height: 640px;
+        width: 100%;
+        margin: auto;
+      }
+    }
+    .unslider-arrow {
+      margin-top: -350px;
+    }
   }
 }
 
@@ -46,7 +83,7 @@ body {
     font-weight: 500;
     margin: 20px;
     float: left;
-    
+    margin-left: 35px;
   }
   .navbar {
     margin: 20px;

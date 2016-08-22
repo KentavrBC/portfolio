@@ -1,26 +1,11 @@
-<div class='header'>
-  <div class='container'>
-    <ul class='nav-bar'>
-      <h1>MaxeR</h1>
-    </ul>
-  </div>
-</div>
-
 <div class="main">
   <div class="container">
     <h2>Portfolio</h2>
-    <p>Welcome to portfolio. My name is Maksim, im developer from Ukraine. I'm developing websites, style them, and make them work!</p>
-    <a href='#' class='btn-primary'>View my Work</a>
-  </div>
-</div>
-
-<div class='footer'>
-  <div class='container'>
-    <p id='copy'>&copy MaxeR</p>
-    <ul class='navbar pull-right'>
-      <li><a href='https://www.facebook.com/max.redka.3'><img src='https://photos-1.dropbox.com/t/2/AADoBcDiVIZQhRVB4Ghb5k8bOKvcusl5FKgLkCxKwmdaoA/12/595958482/png/32x32/1/_/1/2/social-1.png/EMK19eYEGAMgAigC/fP1a-i1iROPtYcUSjStNLah79ZkA_xcrPnZi3CMf3yI?size=1600x1200&size_mode=3'></a></li>
-      <li><a href='mailto:kentavrbc@gmail.com'><img src='https://photos-1.dropbox.com/t/2/AACLAnQjaRChimkPkAbahC6eqQyQ5r8YPV1bmrL68KW0Nw/12/595958482/png/32x32/1/_/1/2/gmail.png/EMK19eYEGAUgAigC/T_O54dsbQyeRpBhTm1wqR2sqUF-Xz66S0MM_3Aj8zNw?size=2048x1536&size_mode=3'></a></li>
-      <li><a href='https://plus.google.com/u/0/112982164241856074098/posts'><img src='https://photos-2.dropbox.com/t/2/AAD-qj-GWFfqbv9WdmJaxGngMmOt4RtNu8p9D5wXhcKhig/12/595958482/png/32x32/1/_/1/2/social.png/EMK19eYEGAUgAigC/dKlghuFdQ0g7Cl7aL1b-QzHvlKyYNx1elvKgrGrZx9k?size=1600x1200&size_mode=3'></a></li>
-    </ul>
+    <div class='row'>
+      <div class='col-md-5'>
+        <p>Welcome to portfolio. My name is Maksim, im developer from Ukraine. I'm developing websites, style them, and make them work!</p>
+        <%= link_to "View my Work", {controller: "pages", action: "portfolio"}, class: "btn btn-primary" %>
+      </div>
+    </div>
   </div>
 </div>

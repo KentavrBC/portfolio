@@ -9,8 +9,35 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div class='header'>
+  <div class='container'>
+    <div clas='row'>
+      <div class='col-md-4'>
+        <%= link_to "MaxeR", {controller: "pages", action: "welcome"}, class: "logo" %>
+      </div>
+      <div class='col-md-8'>
+        <ul class='nav-bar pull-right'>
+          <li><%= link_to "Home", {controller: "pages", action: "welcome"}, class: "btn btn-info" %></li>
+          <li><%= link_to "Portfolio", {controller: "pages", action: "portfolio"}, class: "btn btn-info" %></li>
+          <li><a href='/about' class='btn btn-info'>About</a></li>
+          <li><a href='/contacts' class='btn btn-info'>Contacts</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
 <%= yield %>
 
+<div class='footer'>
+  <div class='container'>
+    <p id='copy'>&copy MaxeR</p>
+    <ul class='navbar pull-right'>
+      <li><a href='https://www.facebook.com/max.redka.3'><img src='https://ipic.su/img/img7/fs/social-1.1471769999.png'></a></li>
+      <li><a href='mailto:kentavrbc@gmail.com'><img src='https://ipic.su/img/img7/fs/gmail.1471769859.png'></a></li>
+      <li><a href='https://plus.google.com/u/0/112982164241856074098/posts'><img src='http://ipic.su/img/img7/fs/social.1471770039.png'></a></li>
+    </ul>
+  </div>
+</div>
 </body>
 </html>
