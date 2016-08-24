@@ -77,6 +77,41 @@ body {
     }
   }
 }
+//about
+
+.about {
+  min-height: 450px;
+  background: url('http://wallpapercave.com/wp/7ApilLw.jpg') no-repeat center center;
+  background-size: cover;
+  .row {
+    margin-top: 35px;
+    .photo {
+      text-align: center;
+    }
+    h3 {
+      text-align: center;
+    }
+  }
+}
+
+.contacts {
+  color: #d11d1d;
+  font-size: 26px;
+  font-weight: 700;
+  min-height: 450px;
+  background: url('http://amc.ru/wp-content/uploads/2015/08/Internet.jpg') no-repeat center center fixed;
+  background-size: cover;
+  .contact-bar {
+    li {
+    	margin: 10px;
+    	padding: 0;
+      list-style: none;
+      span {
+        margin-left: 20px;
+      }
+    }
+  }
+}
 
 //footer
 
